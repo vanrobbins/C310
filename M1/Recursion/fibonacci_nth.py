@@ -5,5 +5,9 @@ def nth_fib(num):
     # Recursive case: sum of the two preceding Fibonacci numbers
     return nth_fib(num - 1) + nth_fib(num - 2)
 
-# Test Case: Print the 10th Fibonacci number
-print(nth_fib(10))
+# Test Cases
+print(nth_fib(10)) #Output: 34
+
+print(nth_fib(5)) #Output: 3
+
+print(nth_fib(3)) #Output: 1
